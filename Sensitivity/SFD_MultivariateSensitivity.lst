@@ -1,0 +1,92 @@
+"0ff (1)"
+"1 Year"
+"Base affordability fraction (1)"
+"Base demand (1)"
+"Base multiplier (1)"
+"Base multiplier factor (1)"
+"Base No Rent (1)"
+"Base Preference (1)"
+"Base Ratio (1)"
+"Capped Demand (2)"
+"Construction (p) delay time"
+"Construction (p)"
+"Construction (s) delay time"
+"Construction (s)"
+"Demolishment (p) delay time"
+"Demolishment (p)"
+"Demolishment (s) delay time"
+"Demolishment (s)"
+"Effect of land constraints (0) BoundAdeqTest"
+"Family Policy Ratio (2)"
+"Goal seeking demand (3)"
+"higher growth rate (3)"
+"higher growth rate(3)"
+"Linear Increase (2)"
+"lower growth rate (2)"
+"lower growth rate(2)"
+"NSHAP increase preference (2)"
+"On (2) BoundAdeqTest"
+"Planning (p)"
+"Planning (s)"
+"Rent cap policy (2)"
+"Shifting in (p)"
+"Shifting in (s)"
+"Shifting out (p)"
+"Shifting out (s)"
+"Slower, Less Increase (3)"
+"Spaces to housing ratio (p)"
+"Spaces to housing ratio (s)"
+"Students looking for houses (shortage)"
+"Subsidies for students (0)"
+"switch (a)"
+"switch (b)"
+"switch (c)"
+"switch (d)"
+"switch (e)"
+"switch (f)"
+"switch (g)"
+"switch (h)"
+Average accomodation time
+Average student rent per month
+Base private housing rent
+Cap value
+Change in rent
+Changes in land usage
+Construction volume of private housing
+Construction volume of student housing
+Decline houses to students
+FINAL TIME
+Fraction of available private housing afforded by students
+Fraction of repurposed housing
+Fraction of students in private housing
+Initial construction volume for potential student spaces
+Initial private housing
+Initial student housing
+INITIAL TIME
+Maximum change in land
+Offer houses to students
+Percentage change in construction volume
+Percentage change in rent based on shortage
+Percentage of demand met
+Planned private housing
+Planned student housing
+Preference factor
+Preference ratio private to student housing
+Private housing for students
+Rent cap
+Rent information delay
+SAVEPER
+Shifting delay time
+Student demand
+Student demand for housing
+Student housing
+Student rent for private housing
+Student rent for student housing
+Students housed in private housing
+Students housed in student housing
+Time
+TIME STEP
+Total number of students housed
+Total private housing stock
+Withdraw demand for housing
+Withdrawal delay time
