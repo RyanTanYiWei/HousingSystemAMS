@@ -1,0 +1,5 @@
+200,M,1234,,0
+Initial student housing=RANDOM_UNIFORM(20394,24926)
+Initial private housing=RANDOM_UNIFORM(10197,12463)
+Initial construction volume for potential student spaces=RANDOM_UNIFORM(900,1100)
+Student rent for student housing=RANDOM_UNIFORM(5610,6750)
