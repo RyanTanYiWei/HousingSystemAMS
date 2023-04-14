@@ -1,0 +1,159 @@
+{UTF-8}
+Availability of Private Housing  = A FUNCTION OF( Construction of Private Housing)
+	~	
+	~		|
+
+Average Rent Prices  = A FUNCTION OF( Availability of Student Housing,Student Rent Price for Private Housing\
+		,Students housed in Private Housing)
+	~	
+	~		|
+
+Total Students Housed  = A FUNCTION OF( Availability of Student Housing,Students housed in Private Housing\
+		)
+	~	
+	~		|
+
+Availability of Student Housing  = A FUNCTION OF( Construction of Student Housing)
+	~	
+	~		|
+
+Construction of Private Housing  = A FUNCTION OF( Student Rent Price for Private Housing\
+		)
+	~	
+	~		|
+
+Construction of Student Housing  = A FUNCTION OF( Student Rent Price for Private Housing\
+		)
+	~	
+	~		|
+
+Student Demand for Private Housing  = A FUNCTION OF( Shortage of Student Spaces)
+	~	
+	~		|
+
+Student Rent Price for Private Housing  = A FUNCTION OF( Student Demand for Private Housing\
+		)
+	~	
+	~		|
+
+Shortage of Student Spaces  = A FUNCTION OF( Availability of Student Housing,Students housed in Private Housing\
+		)
+	~	
+	~		|
+
+Students housed in Private Housing  = A FUNCTION OF( Availability of Private Housing,\
+		Student Rent Price for Private Housing)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Courier|12||0-0-0|0-0-0|0-0-255|-1--1--1|255-255-255|96,96,80,0
+10,1,Shortage of Student Spaces,499,132,67,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,||B|255-0-0,0,0,0,0,0,0
+10,2,Students housed in Private Housing,391,262,71,24,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|||255-0-0,0,0,0,0,0,0
+10,3,Student Demand for Private Housing,780,158,67,24,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|||255-0-0,0,0,0,0,0,0
+10,4,Student Rent Price for Private Housing,876,301,81,24,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|||64-160-98,0,0,0,0,0,0
+10,5,Availability of Student Housing,301,636,71,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,||B|0-0-255,0,0,0,0,0,0
+10,6,Availability of Private Housing,547,478,71,16,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|||0-0-255,0,0,0,0,0,0
+1,7,3,4,1,0,43,13,3,128,0,128-128-128,|||0-0-0,1|(863,219)|
+1,8,6,2,1,0,43,13,3,128,0,128-128-128,|||0-0-0,1|(419,455)|
+10,9,Construction of Private Housing,692,408,71,16,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|||0-0-255,0,0,0,0,0,0
+10,10,Construction of Student Housing,870,519,71,16,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|||0-0-255,0,0,0,0,0,0
+1,11,4,9,1,0,43,13,3,128,0,128-128-128,|||0-0-0,1|(790,362)|
+1,12,4,10,1,0,45,13,3,128,0,128-128-128,|||0-0-0,1|(881,449)|
+1,13,9,6,1,0,43,13,3,129,0,128-128-128,|||0-0-0,1|(666,457)|
+1,14,4,2,1,0,45,13,3,128,0,128-128-128,|||0-0-0,1|(596,332)|
+1,15,2,1,1,0,45,13,3,128,0,128-128-128,|||0-0-0,1|(400,172)|
+1,16,10,5,1,0,43,13,3,129,0,128-128-128,|||0-0-0,1|(561,686)|
+1,17,5,1,1,0,45,13,3,128,0,128-128-128,|||0-0-0,1|(185,223)|
+12,18,0,633,219,58,58,4,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0,0,0,0,0,0,0
+R. Unintended (Rent Price Increase)
+12,19,0,501,389,53,53,5,135,0,0,-1,0,0,0,0,0,0,0,0,0
+B. Fix (Demand Shift to Private Market)
+12,20,0,241,304,69,69,4,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0,0,0,0,0,0,0
+R.Unintended (Supply decrease)
+1,21,1,3,1,0,43,13,3,128,0,128-128-128,|||0-0-0,1|(622,105)|
+10,22,Average Rent Prices,465,565,59,16,8,3,0,18,0,0,0,0,-1--1--1,0-0-0,||B|64-160-98,0,0,0,0,0,0
+1,23,4,22,1,0,43,12,3,128,0,192-192-192,|||0-0-0,1|(735,503)|
+1,24,5,22,1,0,45,12,3,128,0,192-192-192,|||0-0-0,1|(415,621)|
+10,26,Total Students Housed,331,535,43,24,8,131,0,18,0,0,0,0,-1--1--1,0-0-0,||B|0-0-255,0,0,0,0,0,0
+1,28,5,26,1,0,43,12,3,128,0,192-192-192,|||0-0-0,1|(364,601)|
+12,29,0,950,134,29,9,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+Legend
+12,30,0,952,156,36,9,8,135,0,6,-1,0,0,0,-1--1--1,255-0-0,|||255-255-255,0,0,0,0,0,0
+Demand
+12,31,0,952,176,36,9,8,135,0,7,-1,0,0,0,0-0-255,0-0-255,|||255-255-255,0,0,0,0,0,0
+Supply
+12,32,0,953,195,37,9,8,135,0,7,-1,0,0,0,0-128-0,0-128-0,|||255-255-255,0,0,0,0,0,0
+Rent
+12,33,0,953,215,17,9,8,135,0,20,-1,0,0,0,-1--1--1,255-255-255,||B|255-255-255,0,0,0,0,0,0
+KPI
+12,34,0,1048,296,40,20,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,35,2,26,1,0,43,0,3,128,0,192-192-192,|||0-0-0,1|(298,436)|
+1,36,2,22,1,0,43,0,3,128,0,192-192-192,|||0-0-0,1|(356,453)|
+///---\\\
+:L<%^E!@
+5:Construction of Student Housing
+9:current
+19:80,0
+24:0
+25:0
+26:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:1
+72:0
+73:0
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Courier|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
