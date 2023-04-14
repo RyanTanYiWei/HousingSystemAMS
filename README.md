@@ -21,6 +21,7 @@ The ongoing student housing shortage in Amsterdam underscores the need for polic
 # Folder Structure
 The repository is structured as follows:
 - [Paper](Paper_Final.pdf): Final paper which explains the contexts, results and discusses the implications.
+- [Presentation](misc/Presentation%20and%20Narrative.pdf)
 - [SFD_master](SFD_master.mdl): Stock-and-flow diagram is our quantitative model.
 - [CLD_master](CLD_master.mdl): The causal loop diagram is our qualitative model used for conceptualization.
 - [Simulations](Simulations): Folder contains all scenarios/policy outputs from the SFD
