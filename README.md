@@ -15,7 +15,7 @@ The ongoing student housing shortage in Amsterdam underscores the need for polic
 
 ## How to Use (SFD)
 - The stock-and-flow diagram is our [model](SFD_master.mdl) that quantifies the system and is used to run validations, scenarios and policy tests.
-- The outputs of our experiments are contained within the folders [simulations](Simulations) and [sensitivity](Sensitivity). If the outputs would like to be visualized in the stock-and-flow diagram, it is recommended to move the output files into the root folder (same directory as the SFD file) and accessed in vensim via _control p panel_ > _data set_.
+- The outputs of our experiments are contained within the folders [simulations](Simulations) and [sensitivity](Sensitivity). If the outputs would like to be visualized in the stock-and-flow diagram, it is recommended to move the output files into the root folder (same directory as the SFD file) and accessed in vensim via _control panel_ > _data set_.
 - For replicability, all the scenario and policy tests were kept on the right end of the model where you can toggle them with switches depending on the scenario you intend to simulate.
 
 # Folder Structure
