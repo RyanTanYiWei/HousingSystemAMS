@@ -1,14 +1,5 @@
 # Beyond Student Housing: A Systems Approach to understand the Student Housing Crisis in Amsterdam
-
-Created by: EPA1341 Group 5a 
-
-| Name    | Student Number |
-|:-------:|:--------|
-| Ryan Tan Yi Wei | 5708427 |
-| Alexander Dietz  | 5859549 | 
-| Ludwig Branzk | 5862515 |
-| Canan Tezgec | 5721482 |
-| Ariel Goldin | 5354717 |
+Ryan Tan Yi Wei, Alexander Dietz, Ludwig Branzk, Canan Tezgec, Ariel Goldin (TU Delft)
 
 ## Abstract
 The ongoing student housing shortage in Amsterdam underscores the need for policies accounting for complex housing market dynamics and ensuring future availability and affordability of housing for students. This paper employs a System Dynamics approach, aiming to develop a holistic understanding of the intricate mechanisms among three subsystems: supply, demand, and rent, to analyze the path dependencies driving the evolution of the student housing crisis. A backward-looking analysis revealed that past policies mainly targeted the rent subsystem to stimulate housing affordability and availability for students. Current policies often neglect the private housing market trajectory, prompting this paper to encourage policymakers to view the "student housing crisis" more broadly. The policy proposal aims to augment the existing National Student Housing Action Plan by capping rent to control growing reliance on private housing while utilizing its total capacity.
